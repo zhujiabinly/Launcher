@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res"><file name="main_bg_repeat" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable\main_bg_repeat.xml" qualifiers="" type="drawable"/><file name="selector_text_title" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable\selector_text_title.xml" qualifiers="" type="drawable"/><file name="applist_back" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable-hdpi\applist_back.png" qualifiers="hdpi" type="drawable"/><file name="hotseat_scrubber_holo" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable-hdpi\hotseat_scrubber_holo.9.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher_home" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable-hdpi\ic_launcher_home.png" qualifiers="hdpi" type="drawable"/><file name="main_bg" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable-hdpi\main_bg.jpg" qualifiers="hdpi" type="drawable"/><file name="hotseat_scrubber_holo" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\drawable-xhdpi\hotseat_scrubber_holo.9.png" qualifiers="xhdpi" type="drawable"/><file name="apps_customize_application" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\apps_customize_application.xml" qualifiers="" type="layout"/><file name="scene_allapps" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\scene_allapps.xml" qualifiers="" type="layout"/><file name="scene_chooser" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\scene_chooser.xml" qualifiers="" type="layout"/><file name="scene_launcher" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\scene_launcher.xml" qualifiers="" type="layout"/><file name="scroll_indicator" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\scroll_indicator.xml" qualifiers="" type="layout"/><file name="viewpager_item" path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\layout\viewpager_item.xml" qualifiers="" type="layout"/><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the title indicator. -->
+        <attr format="reference" name="vpiTitlePageIndicatorStyle"/>
+    </declare-styleable><declare-styleable name="Shortcut">
+        <attr format="string" name="intentUri"/>
+    </declare-styleable><declare-styleable name="PagedView">
+
+        <!-- A spacing override for the icons within a page -->
+        <attr format="dimension" name="pageLayoutWidthGap"/>
+        <attr format="dimension" name="pageLayoutHeightGap"/>
+        <!-- The padding of the pages that are dynamically created per page -->
+        <attr format="dimension" name="pageLayoutPaddingTop"/>
+        <attr format="dimension" name="pageLayoutPaddingBottom"/>
+        <attr format="dimension" name="pageLayoutPaddingLeft"/>
+        <attr format="dimension" name="pageLayoutPaddingRight"/>
+        <!-- The space between adjacent pages of the PagedView. -->
+        <attr format="dimension" name="pageSpacing"/>
+        <!-- The padding for the scroll indicator area -->
+        <attr format="dimension" name="scrollIndicatorPaddingLeft"/>
+        <attr format="dimension" name="scrollIndicatorPaddingRight"/>
+    </declare-styleable><declare-styleable name="TitlePageIndicator">
+
+        <!-- Screen edge padding. -->
+        <attr format="dimension" name="clipPadding"/>
+        <!-- Color of the footer line and indicator. -->
+        <attr format="color" name="footerColor"/>
+        <!-- Height of the footer line. -->
+        <attr format="dimension" name="footerLineHeight"/>
+        <!-- Style of the indicator. Default is triangle. -->
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr>
+        <!-- Height of the indicator above the footer line. -->
+        <attr format="dimension" name="footerIndicatorHeight"/>
+        <!-- Left and right padding of the underline indicator. -->
+        <attr format="dimension" name="footerIndicatorUnderlinePadding"/>
+        <!-- Padding between the bottom of the title and the footer. -->
+        <attr format="dimension" name="footerPadding"/>
+        <!-- Position of the line. -->
+        <attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <!-- Color of the selected title. -->
+        <attr format="color" name="selectedColor"/>
+        <!-- Whether or not the selected item is displayed as bold. -->
+        <attr format="boolean" name="selectedBold"/>
+        <!-- Color of regular titles. -->
+        <attr name="android:textColor"/>
+        <!-- Size of title text. -->
+        <attr name="android:textSize"/>
+        <!-- Padding between titles when bumping into each other. -->
+        <attr format="dimension" name="titlePadding"/>
+        <!-- Padding between titles and the top of the View. -->
+        <attr format="dimension" name="topPadding"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable></file><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values\defaults.xml" qualifiers=""><integer name="default_title_indicator_footer_indicator_style">2</integer><color name="default_title_indicator_selected_color">#FFFFFFFF</color><dimen name="default_title_indicator_clip_padding">4dp</dimen><dimen name="default_title_indicator_footer_line_height">2dp</dimen><integer name="default_title_indicator_line_position">0</integer><dimen name="default_title_indicator_text_size">15dp</dimen><dimen name="default_title_indicator_footer_padding">7dp</dimen><color name="default_title_indicator_text_color">#BBFFFFFF</color><dimen name="default_title_indicator_title_padding">5dp</dimen><bool name="default_title_indicator_selected_bold">true</bool><dimen name="default_title_indicator_top_padding">7dp</dimen><color name="default_title_indicator_footer_color">#FF33B5E5</color><dimen name="default_title_indicator_footer_indicator_height">4dp</dimen><dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen></file><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="gallery_left">189dp</dimen><dimen name="calendar_month_text_size">18sp</dimen><dimen name="backlight_top">270dp</dimen><dimen name="note_top">210dp</dimen><dimen name="calendar_day_text_size">25sp</dimen><dimen name="bookshelf_light_top">126dp</dimen><dimen name="video_left">78dp</dimen><dimen name="apps_customize_pageLayoutPaddingBottom">10dp</dimen><dimen name="music_left">260dp</dimen><dimen name="contact_top">301dp</dimen><dimen name="note_left">9dp</dimen><dimen name="apps_customize_cell_width">74dp</dimen><dimen name="tray_height">50dp</dimen><dimen name="apps_customize_pageLayoutPaddingTop">10dp</dimen><dimen name="contact_left">210dp</dimen><dimen name="browser_top">50dp</dimen><dimen name="recorder_left">230dp</dimen><dimen name="camera_left">90dp</dimen><dimen name="backlight_left">39dp</dimen><dimen name="calculator_top">252dp</dimen><dimen name="calendar_left">251dp</dimen><dimen name="music_top">300dp</dimen><dimen name="setting_top">400dp</dimen><dimen name="apps_customize_pageLayoutHeightGap">-1dp</dimen><dimen name="gallery_light_left">208dp</dimen><dimen name="setting_left">73dp</dimen><dimen name="window_top">30dp</dimen><dimen name="clock_top">140dp</dimen><dimen name="analogclock_top">35dp</dimen><dimen name="calllog_top">128dp</dimen><dimen name="clock_left">245dp</dimen><dimen name="calculator_left">205dp</dimen><dimen name="apps_customize_pageLayoutPaddingRight">5dp</dimen><dimen name="gallery_light_top">64dp</dimen><dimen name="camera_top">161dp</dimen><dimen name="calendar_top">298dp</dimen><dimen name="apps_customize_cell_height">82dp</dimen><dimen name="email_top">350dp</dimen><dimen name="qq_top">250dp</dimen><dimen name="gallery_top">87dp</dimen><dimen name="recorder_top">208dp</dimen><dimen name="email_left">240dp</dimen><dimen name="apps_customize_pageLayoutPaddingLeft">5dp</dimen><dimen name="qq_left">88dp</dimen><dimen name="apps_customize_pageLayoutWidthGap">-1dp</dimen><dimen name="analogclock_left">10dp</dimen><dimen name="filemanager_top">149dp</dimen><dimen name="video_top">160dp</dimen><dimen name="apps_customize_max_gap">18dp</dimen><dimen name="filemanager_left">197dp</dimen><dimen name="calllog_left">150dp</dimen><dimen name="bookshelf_light_left">85dp</dimen><dimen name="browser_left">215dp</dimen></file><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values\strings.xml" qualifiers=""><string name="menu_settings">System settings</string><string name="menu_scene_choose">Scene choose</string><string name="scene_not_found">Don\'t find any scenes in you device</string><string name="activity_not_found">Application is not installed on your phone.</string><string name="menu_mainmenu">Mainmenu</string><string name="application_name">Launcher</string><string name="menu_classic_launcher">Classic launcher</string></file><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values-zh-rCN\strings.xml" qualifiers="zh-rCN"><string name="menu_classic_launcher">"经典桌面"</string><string name="application_name">"场景桌面"</string><string name="activity_not_found">"未安装该应用"</string><string name="menu_mainmenu">"主菜单"</string><string name="scene_not_found">未在手机上找到任何主题</string><string name="menu_settings">"系统设置"</string><string name="menu_scene_choose">"主题切换"</string></file><file path="C:\Users\jiabin\Desktop\Launcher1\app\src\main\res\values-zh-rTW\strings.xml" qualifiers="zh-rTW"><string name="menu_classic_launcher">"經典桌面"</string><string name="activity_not_found">"應用程式未安裝"</string><string name="scene_not_found">未在手機中找到任何主題</string><string name="menu_scene_choose">"主題選擇"</string><string name="menu_settings">"系統設置"</string><string name="application_name">"場景桌面"</string><string name="menu_mainmenu">"主菜單"</string></file></source><source path="C:\Users\jiabin\Desktop\Launcher1\app\build\generated\res\rs\debug"/><source path="C:\Users\jiabin\Desktop\Launcher1\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\jiabin\Desktop\Launcher1\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PagedView"><attr format="dimension" name="pageLayoutWidthGap"/><attr format="dimension" name="pageLayoutHeightGap"/><attr format="dimension" name="pageLayoutPaddingTop"/><attr format="dimension" name="pageLayoutPaddingBottom"/><attr format="dimension" name="pageLayoutPaddingLeft"/><attr format="dimension" name="pageLayoutPaddingRight"/><attr format="dimension" name="pageSpacing"/><attr format="dimension" name="scrollIndicatorPaddingLeft"/><attr format="dimension" name="scrollIndicatorPaddingRight"/></declare-styleable><declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiTitlePageIndicatorStyle"/></declare-styleable><declare-styleable name="Shortcut"><attr format="string" name="intentUri"/></declare-styleable><declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr format="color" name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable></configuration></mergedItems></merger>

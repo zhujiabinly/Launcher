@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/jiabin/Desktop/Launcher1/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="activity_not_found">"未安装该应用"</string>
+    <string name="application_name">"场景桌面"</string>
+    <string name="menu_classic_launcher">"经典桌面"</string>
+    <string name="menu_mainmenu">"主菜单"</string>
+    <string name="menu_scene_choose">"主题切换"</string>
+    <string name="menu_settings">"系统设置"</string>
+    <string name="scene_not_found">未在手机上找到任何主题</string>
+</resources>

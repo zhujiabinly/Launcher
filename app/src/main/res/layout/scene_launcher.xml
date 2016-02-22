@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.way.scenelauncher"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scene_root"
+    >
+
+<!--
+    <com.topwise.scenelauncher.SceneWorkspace
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scene_workspace"
+        >
+        <include android:id="@+id/scene0" layout="@layout/scene0"/>
+        <include android:id="@+id/scene1" layout="@layout/scene1"/>
+        <include android:id="@+id/scene2" layout="@layout/scene2"/>
+        <include android:id="@+id/scene3" layout="@layout/scene3"/>
+    </com.topwise.scenelauncher.SceneWorkspace>
+-->    
+<!--
+    <com.topwise.scenelauncher.PageIndicator 
+        android:id="@+id/paged_view_indicator" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/tray_height" />     
+-->           
+
+<!--        
+    <RelativeLayout 
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageButton 
+            android:id="@+id/phone_dial_icon" 
+            android:background="@drawable/dial_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+        <ImageButton 
+            android:id="@+id/main_menu_icon" 
+            android:background="@drawable/mainmenu_icon"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+        <ImageButton 
+            android:id="@+id/message_icon" 
+            android:background="@drawable/message_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />    
+    </RelativeLayout>
+-->    
+<!--
+    <include layout="@layout/scene_allapps"
+        android:id="@+id/scene_allapps_layout" 
+        android:visibility="invisible"/>
+-->        
+
+</FrameLayout>
